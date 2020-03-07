@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
             evaluateExpression("-", clear = true)
         }
         mult.setOnClickListener {
-            evaluateExpression("x", clear = true)
+            evaluateExpression("*", clear = true)
         }
         div.setOnClickListener {
             evaluateExpression("/", clear = true)
